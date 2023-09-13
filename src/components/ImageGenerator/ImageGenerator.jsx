@@ -1,8 +1,7 @@
 import React , {useRef, useState} from 'react' 
 import './ImageGenerator.css'
 import defaultimage from '../assets/default_image.svg'
-//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
-//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
+
 
 const ImageGenerator = () => {
 
@@ -14,15 +13,16 @@ const ImageGenerator = () => {
         if(inputRef.current.value===""){
             return 0;
         }
+        
         setLoading(true);
         const response = await fetch(
-            "https://api.openai.com/v1/images/generations" ,
+            "yourapiproviderurl" ,
             {
                 method: "POST",
                 headers:{
                     "Content-Type":"application/json",
                     Authorization:
-                    "Bearer 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",
+                    "Bearer yourapikeyhere",
                     "User-Agent":"Chrome",
                 },
                 body:JSON.stringify({
