@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ai-images-generator/static/css/main.8c26a5f8.css",
+    "main.js": "/ai-images-generator/static/js/main.3ab3cef0.js",
+    "static/js/787.5cf72d64.chunk.js": "/ai-images-generator/static/js/787.5cf72d64.chunk.js",
+    "static/media/default_image.svg": "/ai-images-generator/static/media/default_image.a4d442e8af1d092fe54c123b1d87ee02.svg",
+    "index.html": "/ai-images-generator/index.html",
+    "main.8c26a5f8.css.map": "/ai-images-generator/static/css/main.8c26a5f8.css.map",
+    "main.3ab3cef0.js.map": "/ai-images-generator/static/js/main.3ab3cef0.js.map",
+    "787.5cf72d64.chunk.js.map": "/ai-images-generator/static/js/787.5cf72d64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c26a5f8.css",
+    "static/js/main.3ab3cef0.js"
+  ]
+}
